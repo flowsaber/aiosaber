@@ -20,7 +20,7 @@
     <img src="https://github.com/flowsaber/aiosaber/actions/workflows/python-package-conda.yml/badge.svg" alt="Build Status">
   </a>
   <a href="https://app.codecov.io/gh/flowsaber/aiosaber">
-    <img src="https://codecov.io/gh/flowsaber/aiosaber/branch/dev/graph/badge.svg" alt="codecov">
+    <img src="https://codecov.io/gh/flowsaber/aiosaber/branch/main/graph/badge.svg" alt="codecov">
   </a>
   <a href="https://github.com/flowsaber/aiosaber/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/flowsaber/aiosaber" alt="license">
