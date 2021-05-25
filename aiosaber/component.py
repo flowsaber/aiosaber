@@ -81,12 +81,6 @@ class Component(object):
             tb = traceback.format_exc()
             raise ComponentCallError(str(e), trace_back=tb) from e
 
-    @property
-    def executor(self):
-        if self.copy_context and not isinstance(self._executor, ContextExecutor):
-            self._executor = ContextExecutor(executor=self._executor)
-        return self._executor
-
     async def start(self, **kwargs):
         try:
             executor = self._executor
