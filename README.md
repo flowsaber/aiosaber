@@ -33,7 +33,15 @@
 - Composable for both flows and tasks.
 - Extensible with middlewares.
 
+## Installation
+
+```bash
+pip install aiosaber
+```
+
 ## Example
+
+- check [tests](https://github.com/flowsaber/aiosaber/tree/main/tests) for more examples.
 
 ```python
 from aiosaber import *
