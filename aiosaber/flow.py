@@ -4,7 +4,7 @@ from typing import Optional, Set, Union, List, TYPE_CHECKING
 from aiosaber import context
 from aiosaber.channel import Channel
 from aiosaber.component import Component
-from aiosaber.plugins import DaskExecutorProvider
+from aiosaber.middleware import DaskExecutorProvider
 from aiosaber.utility.typings import ChannelOutput
 from aiosaber.utility.utils import class_deco
 

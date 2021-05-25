@@ -44,9 +44,13 @@ def bounded_create_task(maxsize: int, create_task: Callable = None, return_when:
     return_when = return_when or first_exception
 
     def _done_callback(fut: asyncio.Future):
-        q.task_done()
         sem.release()
         futures.remove(fut)
+        # TODO may over called
+        try:
+            q.task_done()
+        except Exception:
+            pass
         # set waiter done once
         if not waiter.done() and return_when(fut):
             # propagate all state to current coro

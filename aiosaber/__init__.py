@@ -1,4 +1,4 @@
-__version__ = '0.0.1'
+__version__ = '0.0.1.1'
 
 import warnings
 
@@ -8,6 +8,8 @@ import uvloop
 from .channel import *
 # noinspection PyUnresolvedReferences
 from .flow import *
+# noinspection PyUnresolvedReferences
+from .middleware import BaseHandler, BaseExecutor, BaseBuilder
 # noinspection PyUnresolvedReferences
 from .operators import *
 # noinspection PyUnresolvedReferences

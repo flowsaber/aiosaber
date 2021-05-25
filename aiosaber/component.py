@@ -6,7 +6,7 @@ from typing import Union, List, Optional, TYPE_CHECKING
 
 from aiosaber import context
 from aiosaber.channel import Consumer
-from aiosaber.plugins import ContextExecutor
+from aiosaber.middleware import ContextExecutor
 from aiosaber.utility.typings import ChannelOutput, Builder, Executor
 
 if TYPE_CHECKING:
