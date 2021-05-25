@@ -1,7 +1,5 @@
 import inspect
-from typing import Callable, Any, Union, Sequence, Awaitable, TYPE_CHECKING
-
-from typing_extensions import Protocol
+from typing import Callable, Any, Union, Sequence, Awaitable, TYPE_CHECKING, Protocol
 
 from aiosaber.channel import Channel
 from aiosaber.utility.target import End, Target
