@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/pypi/v/aiosaber.svg" alt="Install with PyPi" />
   </a>
   <a href="https://github.com/flowsaber/aiosaber/releases">
-  	<img src="https://img.shields.io/github/v/release/aiosaber/aiosaber?include_prereleases&label=github" alt="Github release">
+  	<img src="https://img.shields.io/github/v/release/flowsaber/aiosaber?include_prereleases&label=github" alt="Github release">
   </a>
   <a href="https://pypi.python.org/pypi/aiosaber">
     <img src="https://img.shields.io/pypi/pyversions/aiosaber.svg" alt="Version">
